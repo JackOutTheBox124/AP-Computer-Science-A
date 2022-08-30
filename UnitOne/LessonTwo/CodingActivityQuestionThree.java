@@ -19,13 +19,13 @@ import java.util.Scanner;
  * </pre>
  */
 public class CodingActivityQuestionThree {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Hi there. What is your name?");
-		String name = scanner.nextLine();
-		System.out.println("What state do you live in?");
-		String state = scanner.nextLine();
-		System.out.println("My name is " + name + ". I live in " + state + ".");
-	}
+    System.out.println("Hi there. What is your name?");
+    String name = scanner.nextLine();
+    System.out.println("What state do you live in?");
+    String state = scanner.nextLine();
+    System.out.println("My name is " + name + ". I live in " + state + ".");
+  }
 }

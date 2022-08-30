@@ -21,15 +21,15 @@ import java.util.Scanner;
  * <i>Hint:</i> One solution to this challenge would be to use 4 separate variables, one for each name.
  */
 public class CodingActivityQuestionTwo {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		ArrayList<String> names = new ArrayList<String>();
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    ArrayList<String> names = new ArrayList<String>();
 
-		System.out.println("Please enter four names:");
-		for (int i = 0; i < 4; i++) {
-			String name = scanner.nextLine();
-			names.add(name);
-		}
-		System.out.println(names.get(3) + " " + names.get(1) + " " + names.get(2) + " " + names.get(0));
-	}
+    System.out.println("Please enter four names:");
+    for (int i = 0; i < 4; i++) {
+      String name = scanner.nextLine();
+      names.add(name);
+    }
+    System.out.println(names.get(3) + " " + names.get(1) + " " + names.get(2) + " " + names.get(0));
+  }
 }

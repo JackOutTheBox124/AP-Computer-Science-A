@@ -16,17 +16,17 @@ import java.util.Scanner;
  * Notice there is exactly one space between the numbers.
  */
 public class CodingActivityQuestionOne {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
 
-		ArrayList<Double> doubles = new ArrayList<>();
+    ArrayList<Double> doubles = new ArrayList<>();
 
-		System.out.println("Please input 3 doubles");
+    System.out.println("Please input 3 doubles");
 
-		 for(int i = 0; i < 3; i++) {
-			doubles.add(scanner.nextDouble());
-		 }
+    for(int i = 0; i < 3; i++) {
+      doubles.add(scanner.nextDouble());
+    }
 
-		System.out.println(doubles.get(2) + " " + doubles.get(1) + " " + doubles.get(0));
-	}
+    System.out.println(doubles.get(2) + " " + doubles.get(1) + " " + doubles.get(0));
+  }
 }

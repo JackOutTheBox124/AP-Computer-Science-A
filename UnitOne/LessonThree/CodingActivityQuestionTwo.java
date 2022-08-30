@@ -16,13 +16,13 @@ import java.util.Scanner;
  * </pre>
  */
 public class CodingActivityQuestionTwo {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Hi there. What is your name?");
-		String name = scanner.nextLine();
-		System.out.println("Hi " + name + ". How old are you?");
-		int age = scanner.nextInt();
-		System.out.println(name + " is " + age + " years old.");
-	}
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Hi there. What is your name?");
+    String name = scanner.nextLine();
+    System.out.println("Hi " + name + ". How old are you?");
+    int age = scanner.nextInt();
+    System.out.println(name + " is " + age + " years old.");
+  }
 }
