@@ -1,4 +1,4 @@
-package UnitOne.LessonTwo.ClassCodeAlong;
+package UnitOne.LessonOne.ClassCodeAlong;
 
 import java.util.Scanner;
 
