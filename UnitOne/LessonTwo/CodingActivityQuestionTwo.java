@@ -23,7 +23,7 @@ import java.util.Scanner;
 public class CodingActivityQuestionTwo {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    ArrayList<String> names = new ArrayList<String>();
+    ArrayList<String> names = new ArrayList<>();
 
     System.out.println("Please enter four names:");
     for (int i = 0; i < 4; i++) {

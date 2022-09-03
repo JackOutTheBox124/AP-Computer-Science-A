@@ -25,8 +25,8 @@ public class CodingActivityQuestionTwo {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter a four digit number:");
-//    int num = scan.nextInt();
-    int num = 5678;
+    int num = scan.nextInt();
+//    int num = 5678;
     System.out.println("Here are the digits:");
 
 //    int i = 1;

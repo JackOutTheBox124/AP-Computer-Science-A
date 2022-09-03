@@ -49,7 +49,7 @@ public class DataDemo {
     //TAX_RATE = .04; DOES NOT WORK
     System.out.println(TAX_RATE);
 
-    //There is no such method as nextChar() because methods dont work on primitives
+    //There is no such method as nextChar() because methods don't work on primitives
     System.out.println("enter a name ");
     String name = scan.nextLine();
 
