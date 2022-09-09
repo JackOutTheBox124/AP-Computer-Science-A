@@ -1,4 +1,4 @@
-package UnitOne.ClassCodeAlong;
+package UnitOne.ClassInstruction;
 import java.util.Scanner;
 public class DataDemo {
   public static void main(String[] args) {

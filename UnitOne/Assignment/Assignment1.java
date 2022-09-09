@@ -37,6 +37,7 @@ public class Assignment1 {
     System.out.println("Please enter the final exam grade for this course.");
     double finalExamGrade = scan.nextDouble();
 
+    // Prints out the formatted and calculated course data
     System.out.println("Course name: " + courseName);
     // Since the value of the variable averageMinutesTotal is an Integer, dividing it by 60 will leave a whole number. Modding the variable by 60 will leave the remaining minutes which is added to the string
     System.out.println("Weekly time spent: " + averageMinutesTotal / 60 + "h" + averageMinutesTotal % 60);

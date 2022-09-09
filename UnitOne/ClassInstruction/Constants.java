@@ -1,4 +1,4 @@
-package UnitOne.ClassCodeAlong;
+package UnitOne.ClassInstruction;
 
 //import java.lang.Math;
 import java.util.Scanner;
