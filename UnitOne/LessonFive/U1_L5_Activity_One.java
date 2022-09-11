@@ -20,7 +20,7 @@ import java.util.Scanner;
  * 8
  * </pre>
  */
-public class CodingActivityQuestionOne {
+public class U1_L5_Activity_One {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter a three digit number:");

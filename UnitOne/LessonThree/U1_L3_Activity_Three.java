@@ -18,7 +18,7 @@ import java.util.Scanner;
  * Question 2 - Your answer: false. Correct answer: true
  * </pre>
  */
-public class CodingActivityQuestionThree {
+public class U1_L3_Activity_Three {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 

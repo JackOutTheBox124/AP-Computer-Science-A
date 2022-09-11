@@ -17,7 +17,7 @@ import java.util.Scanner;
  * The decimal value is: 0.25
  * </pre>
  */
-public class CodingActivityQuestionOne {
+public class U1_L6_Activity_One {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter the numerator:");

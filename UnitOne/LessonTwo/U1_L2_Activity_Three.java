@@ -18,7 +18,7 @@ import java.util.Scanner;
  * My name is Dave. I live in New York.
  * </pre>
  */
-public class CodingActivityQuestionThree {
+public class U1_L2_Activity_Three {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 

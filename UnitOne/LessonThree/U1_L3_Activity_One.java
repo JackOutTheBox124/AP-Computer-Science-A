@@ -15,7 +15,7 @@ import java.util.Scanner;
  * <pre>6.8 2.7 1.3</pre>
  * Notice there is exactly one space between the numbers.
  */
-public class CodingActivityQuestionOne {
+public class U1_L3_Activity_One {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 

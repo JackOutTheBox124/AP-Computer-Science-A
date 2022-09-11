@@ -12,7 +12,7 @@ package UnitOne.LessonOne;
  * to be counted as centered and acceptable.
  */
 
-public class CodingActivityQuestionOne {
+public class U1_L1_Activity_One {
 	public static void main(String[] args) {
 		System.out.println(" Stephen Curry ");
 	}

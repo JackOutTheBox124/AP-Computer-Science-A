@@ -15,7 +15,7 @@ import java.util.Scanner;
  * </pre>
  * Hint - to complete the second coding activity in lesson 5 you had to learn how to get individual digits from an int value. You can reuse this method once you convert the user input to an appropriate int value (you will need both multiplication and casting for this).
  */
-public class CodingActivityQuestionThree {
+public class U1_L6_Activity_Three {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please input a decimal number:");

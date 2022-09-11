@@ -13,7 +13,7 @@ package UnitOne.LessonOne;
  * }
  * </pre>
  */
-public class CodingActivityQuestionThree {
+public class U1_L1_Activity_Three {
 	public static void main(String[] args) {
 		System.out.println("=========\n= 0   0 =   Java is Awesome!\n=   v   =\n=========");
 	}

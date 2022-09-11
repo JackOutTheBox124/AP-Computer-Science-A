@@ -20,7 +20,7 @@ import java.util.Scanner;
  * </pre>
  * <i>Hint:</i> One solution to this challenge would be to use 4 separate variables, one for each name.
  */
-public class CodingActivityQuestionTwo {
+public class U1_L2_Activity_Two {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     ArrayList<String> names = new ArrayList<>();

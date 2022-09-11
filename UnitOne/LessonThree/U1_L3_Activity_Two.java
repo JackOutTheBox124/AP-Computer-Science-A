@@ -15,7 +15,7 @@ import java.util.Scanner;
  * Pascal is 16 years old.
  * </pre>
  */
-public class CodingActivityQuestionTwo {
+public class U1_L3_Activity_Two {
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);

@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Change from $10: $6.5
  * </pre>
  */
-public class CodingActivityQuestionFour {
+public class U1_L3_Activity_Four {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter a price:");

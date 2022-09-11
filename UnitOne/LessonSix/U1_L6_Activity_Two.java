@@ -17,7 +17,7 @@ import java.util.Scanner;
  * Answer: 57 + 23 = 80
  * </pre>
  */
-public class CodingActivityQuestionTwo {
+public class U1_L6_Activity_Two {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please input two decimal numbers:");

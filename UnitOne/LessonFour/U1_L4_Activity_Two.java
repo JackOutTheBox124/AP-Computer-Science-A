@@ -15,7 +15,7 @@ import java.util.Scanner;
  * </pre>
  * As there are 33 whole yards in 100 feet (100 feet is the same as 33 yards and 1 feet)
  */
-public class CodingActivityQuestionTwo {
+public class U1_L4_Activity_Two {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please input how many feet you want converted to yards: ");

@@ -21,7 +21,7 @@ import java.util.Scanner;
  * 5
  * </pre>
  */
-public class CodingActivityQuestionTwo {
+public class U1_L5_Activity_Two {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter a four digit number:");

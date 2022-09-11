@@ -18,7 +18,7 @@ import java.util.Scanner;
  * Area: 50.24
  * </pre>
  */
-public class CodingActivityQuestionThree {
+public class U1_L4_Activity_Three {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter a circumference:");
