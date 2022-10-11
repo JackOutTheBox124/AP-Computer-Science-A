@@ -1,6 +1,6 @@
 package UnitTwo.LessonSeven.U2_L7_Activity_One;
 
-public class U2_L7_Activity_One_Debugged {
+public class U2_L7_Activity_One {
   public static void main(String[] args) {
 
     int a = Integer.MAX_VALUE;

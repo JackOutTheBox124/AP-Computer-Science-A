@@ -1,9 +1,8 @@
 package UnitTwo.LessonSeven.U2_L7_Activity_Three;
 
-import java.util.Scanner;
 //import shapes.*;
 
-public class U2_L7_Activity_Three_Debugged {
+public class U2_L7_Activity_Three {
   public static void main(String[] args) {
     /*
     Scanner scan = new Scanner(System.in);

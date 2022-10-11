@@ -2,7 +2,7 @@ package UnitTwo.LessonSeven.U2_L7_Activity_Two;
 
 import java.util.Scanner;
 
-public class U2_L7_Activity_Two_Debugged {
+public class U2_L7_Activity_Two {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     Integer x = null;
