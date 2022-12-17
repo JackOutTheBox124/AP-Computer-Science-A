@@ -1,10 +1,10 @@
 package UnitTwo.LessonSeven.U2_L7_Activity_Three;
 
-//import shapes.*;
+import java.util.Scanner;
+import shapes.*;
 
 public class U2_L7_Activity_Three {
   public static void main(String[] args) {
-    /*
     Scanner scan = new Scanner(System.in);
     Integer sides;
     Double length;
@@ -19,6 +19,5 @@ public class U2_L7_Activity_Three {
 
     System.out.println("The area of a " + p1 + " is: " + p1.getArea());
     System.out.println("The area of a " + p2 + " is: " + p2.getArea());
-     */
   }
 }

@@ -2,7 +2,7 @@
 package UnitTwo.LessonSix;
 
 import java.util.Scanner;
-//import shapes.*;
+import shapes.*;
 
 
 /**
@@ -24,7 +24,6 @@ import java.util.Scanner;
  */
 public class U2_L6_Activity_Two {
   public static void main(String[] args) {
-    /*
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter number of sides:");
     int sides = scan.nextInt();
@@ -35,7 +34,6 @@ public class U2_L6_Activity_Two {
     System.out.println("Incrementing number of sides by two");
     poly.addSides(2);
     System.out.println("Area with " + poly.getNumSides() + " sides: " + poly.getArea());
-     */
 
   }
 }

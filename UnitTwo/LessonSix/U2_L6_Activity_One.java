@@ -1,7 +1,7 @@
 package UnitTwo.LessonSix;
 
 import java.util.Scanner;
-//import shapes.*;
+import shapes.*;
 
 /**
  * Write code that takes input from the user for the radius (double) of a circle, and create a circle with that radius. The program should then print a sentence with the circumference and area of the circle. You should use the appropriate Circle methods to obtain the circumference and area of the circle rather than calculating these values yourself.
@@ -18,11 +18,9 @@ import java.util.Scanner;
  */
 public class U2_L6_Activity_One {
   public static void main(String[] args) {
-    /*
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter the radius of the circle:");
     Circle circle = new Circle(scan.nextDouble());
     System.out.println("A circle with a radius " + circle.getRadius() + " has a circumference of " + circle.getCircumference() + " and an area of " + circle.getArea());
-     */
   }
 }

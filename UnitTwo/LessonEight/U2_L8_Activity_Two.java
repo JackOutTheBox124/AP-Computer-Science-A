@@ -1,4 +1,4 @@
-package UnitTwo.LessonEight.U2_L8_Activity_Two;
+package UnitTwo.LessonEight;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * <br>
  * <b>Note:</b> slope formula looks like this:
  * <br>
- * <img src="./SlopeFormula.png" width=500></img>
+ * <img src="../../doc-files/SlopeFormula.png" width=300></img>
  * <br>
  * <b>Hint:</b> Just find 4 points and plug in the formula.
  * <br>

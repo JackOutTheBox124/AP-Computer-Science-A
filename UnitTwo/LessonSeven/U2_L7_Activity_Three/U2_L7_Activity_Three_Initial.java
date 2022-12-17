@@ -1,7 +1,7 @@
 package UnitTwo.LessonSeven.U2_L7_Activity_Three;
 
 import java.util.Scanner;
-// import shapes.*;
+import shapes.*;
 
 public class U2_L7_Activity_Three_Initial {
   public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /* Lesson 5 Coding Activity Question 2 */
 package UnitTwo.LessonFive;
 import java.util.Scanner;
-//import shapes.*;
+import shapes.*;
 
 /**
  * Write code which takes three decimal inputs from the user, creates a rectangle with length and width equal to the first input and a rectangle with length and width equal to the second and third input respectively, then prints both of these shapes. The output that you are printing must utilize the toString method inside Rectangle Class.
@@ -21,7 +21,7 @@ import java.util.Scanner;
  */
 public class U2_L5_Activity_Two {
   public static void main(String[] args) {
-    /*
+
     Scanner scan = new Scanner(System.in);
     System.out.println("Type a number for length and width:");
     double a = scan.nextDouble();
@@ -35,6 +35,5 @@ public class U2_L5_Activity_Two {
 
     System.out.println(recA);
     System.out.println(recB);
-     */
   }
 }

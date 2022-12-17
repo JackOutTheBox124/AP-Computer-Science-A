@@ -1,9 +1,8 @@
 /* Lesson 1 Coding Activity Question 1 */
 
-package UnitTwo.LessonOne;
+package UnitTwo.LessonOne;;
 
 import java.util.Scanner;
-
 /**
  * Write a program which asks the user for their name and favorite number. The program should then print a sentence repeating this information as shown in the sample run.
  * <br>
