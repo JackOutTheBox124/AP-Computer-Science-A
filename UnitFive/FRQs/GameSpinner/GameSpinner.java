@@ -1,4 +1,4 @@
-package FRQs.GameSpinner;
+package UnitFive.FRQs.GameSpinner;
 
 public class GameSpinner{
     private int sectors;

@@ -1,4 +1,4 @@
-package FRQs.GameSpinner;
+package UnitFive.FRQs.GameSpinner;
 import java.util.Scanner;
 public class GameSpinner_Game{
    public static void main(String [] args){
