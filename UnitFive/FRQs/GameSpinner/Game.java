@@ -6,16 +6,12 @@ import java.util.Scanner;
 
 public class Game {
   public static void main(String[] args) {
+    int coins = 0;
     Scanner scan = new Scanner(System.in);
 
     System.out.println("What game would you like to play?\n" +
             "(1) - Slot Machine (gambling is good (real))\n" +
             "(2) - ");
-
-
-
-
-
 
     System.out.println("How many sectors should each spinner have?");
     int sectors = scan.nextInt();
@@ -94,18 +90,59 @@ public class Game {
 
       switch (machineReels[0].getNum()) {
         case symbols.cherries -> {
+          System.out.println("1 1 1");
           return 10;
         }
         case symbols.bells -> {
+          System.out.println("2 2 2");
           return 20;
         }
-      }
-      if(machineReels[0].getNum() == symbols.cherries) {
-        return 10;
-      }
+        case symbols.watermelons -> {
+          System.out.println("3 3 3");
+          return 30;
+        }
+        case symbols.lemons -> {
+          System.out.println("4 4 4");
+          return 40;
+        }
+        case symbols.plums -> {
+          System.out.println("5 5 5");
+          return 50;
+        }
+        case symbols.oranges -> {
+          System.out.println("6 6 6");
+          return 60;
+        }
+        case symbols.grapes -> {
+          System.out.println("7 7 7");
+          return 70;
+        }
+        case symbols.ace -> {
+          System.out.println("8 8 8");
+          return 80;
+        }
+        case symbols.sevens -> {
+          System.out.println("9 9 9");
+          return 90;
+        }
+        case symbols.diamonds -> {
+          System.out.println("10 10 10");
 
+          return 100;
+        }
+      }
     }
-    else if ()
+    else if(machineReels[1].getNum() == symbols.cherries &&
+            (machineReels[0].getNum() == symbols.cherries ||
+                    machineReels[2].getNum() == symbols.cherries)) {
+      System.out.println(machineReels[0].getNum() + " " + machineReels[1].getNum() + " " + machineReels[2].getNum());
+      return 5;
+    }
+
+       // else if ()
+
+
+    return -1;
   }
 
 
