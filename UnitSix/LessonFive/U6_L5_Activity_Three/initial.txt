@@ -1,0 +1,13 @@
+public class U6_L5_Activity_Three
+{
+  public static double avg(int[] arr)
+  {
+    int s = 0;
+    for (double n : arr)
+    {
+      s ++ n;
+      s /= arr.length();
+    }
+    return s;
+  }
+}

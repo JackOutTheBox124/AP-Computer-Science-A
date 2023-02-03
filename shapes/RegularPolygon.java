@@ -1,7 +1,7 @@
 package shapes;
 
 /** Represents a Regular Polygon. Every shape created using this class has an integer number of sides greater than 3 all with the same length. */
- public class RegularPolygon extends java.lang.Object {
+ public class RegularPolygon {
    private int sides;
    private double length;
    /** Creates an equilateral triangle with side length 1.0. */
@@ -136,65 +136,31 @@ package shapes;
   public java.lang.String toString() {
     StringBuilder str = new StringBuilder();
     switch (sides) {
-      case 3:
+      case 3 -> {
         str.setLength(0);
         str.append("equilateral triangle");
-        break;
-      case 4:
+      }
+      case 4 -> {
         str.setLength(0);
         str.append("square");
-        break;
-      case 5:
-        str.append("pentagon");
-        break;
-      case 6:
-        str.append("hexagon");
-        break;
-      case 7:
-        str.append("heptagon");
-        break;
-      case 8:
-        str.append("octagon");
-        break;
-      case 9:
-        str.append("nonagon");
-        break;
-      case 10:
-        str.append("decagon");
-        break;
-      case 11:
-        str.append("hendecagon");
-        break;
-      case 12:
-        str.append("dodecagon");
-        break;
-      case 13:
-        str.append("triskaidecagon");
-        break;
-      case 14:
-        str.append("tetrakaidecagon");
-        break;
-      case 15:
-        str.append("pentadecagon");
-        break;
-      case 16:
-        str.append("hexadecagon");
-        break;
-      case 17:
-        str.append("heptadecagon");
-      break;
-      case 18:
-        str.append("octadecagon");
-        break;
-      case 19:
-        str.append("enneadecagon");
-        break;
-      case 20:
-        str.append("icosagon");
-        break;
-      default:
-        str.append("polygon of ").append(sides).append(" sides");
-        break;
+      }
+      case 5 -> str.append("pentagon");
+      case 6 -> str.append("hexagon");
+      case 7 -> str.append("heptagon");
+      case 8 -> str.append("octagon");
+      case 9 -> str.append("nonagon");
+      case 10 -> str.append("decagon");
+      case 11 -> str.append("hendecagon");
+      case 12 -> str.append("dodecagon");
+      case 13 -> str.append("triskaidecagon");
+      case 14 -> str.append("tetrakaidecagon");
+      case 15 -> str.append("pentadecagon");
+      case 16 -> str.append("hexadecagon");
+      case 17 -> str.append("heptadecagon");
+      case 18 -> str.append("octadecagon");
+      case 19 -> str.append("enneadecagon");
+      case 20 -> str.append("icosagon");
+      default -> str.append("polygon of ").append(sides).append(" sides");
     }
     return str.append(" with side length of ").append(length).toString();
   }

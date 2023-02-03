@@ -1,0 +1,59 @@
+package UnitSeven.ClassInstruction;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class MethodArrayPractice_TEMPLATE
+
+{
+
+  //REMOVE METHOD
+  public static void remove(//put parameters here)
+  {
+    //REMEMBER WHEN REMOVING FROM A LIST GO BACKWARDS IN A FOR LOOP!
+
+  }
+
+  //CAPS METHOD
+  public static void caps(//put parameter here)
+  {
+
+  }
+
+  //ALPHABATIZE THE LIST or YOUR OWN METHOD
+  public static ArrayList ownMethod(//put parameter(s) here)
+  {
+
+
+  }
+
+
+  public static void main(String[] args)
+  {
+    Scanner scan = new Scanner(System.in);
+
+//CREATE THE ARRAYLIST OBJECT
+
+
+//INITIALIZE THE ARRAYLIST
+
+
+//PRINT THE ORIGINAL LIST
+
+//REQUEST USER INPUT FOR THE "REMOVE" METHOD
+    //nextLine() would read a space as one input (erin marie would go together for example, not separate names)
+    //next() accepts lines or spaces as separate input (erin marie would be 2 different Strings in array)
+
+
+
+//CALL THE "REMOVE" METHOD AND PRINT THE NEW LIST
+
+
+//CALL THE "CAPS" METHOD that PRINT THE NEW LIST
+
+
+//WRITE YOUR OWN RETURN METHOD HERE AND DESCRIBE WHAT IT DOES IN THIS COMMENT
+
+  }
+}

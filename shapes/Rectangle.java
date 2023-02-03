@@ -1,7 +1,7 @@
 package shapes;
 
 /** Represents a rectangle. Every rectangle created using this class has a positive length and width. */
- public class Rectangle extends java.lang.Object {
+ public class Rectangle {
   private double length;
   private double width;
 

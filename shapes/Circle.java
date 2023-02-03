@@ -1,7 +1,7 @@
 package shapes;
 
 /** Represents a circle. Every circle created using this class has a positive radius. */
-public class Circle extends java.lang.Object {
+public class Circle {
   private double radius;
 
   /** Creates a circle with a radius of {@code 1.0}. */
