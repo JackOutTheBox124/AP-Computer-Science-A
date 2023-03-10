@@ -1,9 +1,4 @@
 package UnitEight.Labs.GradeBook;
-
-import UnitSix.AssignmentSix.Student;
-
-import java.util.Arrays;
-
 public class GradeBook {
   public static void main(String[] args) {
     int[][] testScores = new int[20][4];
@@ -40,7 +35,7 @@ public class GradeBook {
       double sum = 0;
       for (int score : testScores[i]) sum += score;
 
-      System.out.println("Student Average #" + (i+1)+ ": "+ (sum / testScores[i].length));
+      System.out.println("Student Average #" + (i+1)+ ": " + (sum / testScores[i].length));
     }
   }
 
