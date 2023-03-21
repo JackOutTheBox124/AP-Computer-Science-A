@@ -1,4 +1,4 @@
-package UnitNine.LessonOne.U1_L1_Activity_One;
+package UnitNine.LessonOne.U9_L1_Activity_One;
 
 //TODO: javadoc
 
@@ -25,13 +25,12 @@ public class SpecialityCoffee extends Coffee {
   private String flavor;
 
   public SpecialityCoffee() {
-    super("small", false, 1, "latte");
+    super();
     this.flavor = "vanilla";
   }
 
   public SpecialityCoffee(String size, String type, String flavor) {
-    super(size, false, 1, type);
-    this.flavor = flavor;
+    this(size, false, 1, type, flavor);
   }
 
   public SpecialityCoffee(String size, boolean isSkinny, int shots, String type, String flavor) {

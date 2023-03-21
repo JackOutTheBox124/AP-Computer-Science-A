@@ -1,8 +1,7 @@
-package UnitNine.LessonOne.U1_L1_Activity_One;
+package UnitNine.LessonTwo.U9_L2_Activity_One;
 
 import java.util.Scanner;
 public class runner_Coffee {
-
   private static SpecialityCoffee c;
 
   public static void main(String[] args) {
@@ -11,8 +10,7 @@ public class runner_Coffee {
     int which = scan.nextInt();
     if (which == 1) {
       c = new SpecialityCoffee();
-    }
-    else if (which == 2 || which == 3) {
+    } else if (which == 2 || which == 3) {
       scan.nextLine();
       System.out.println("Size?");
       String sz = scan.nextLine();
@@ -21,19 +19,21 @@ public class runner_Coffee {
       System.out.println("Flavor?");
       String fl = scan.nextLine();
       if (which == 3) {
+        boolean iS = false;
         System.out.println("Is Skinny (y/n)?");
         String sk = scan.nextLine().toLowerCase();
-        boolean iS = (sk.equals("y")||sk.equals("yes")||sk.equals("t")||sk.equals("true"));
+        if (sk.equals("y") || sk.equals("yes") || sk.equals("t") || sk.equals("true"))
+          iS = true;
         System.out.println("Shots?");
         int sh = scan.nextInt();
         c = new SpecialityCoffee(sz, iS, sh, tp, fl);
-      }
-      else {
+      } else
         c = new SpecialityCoffee(sz, tp, fl);
-      }
     }
-    if(c != null) {
+    if (c != null) {
       System.out.println(c);
+      int p = c.getPrice();
+      System.out.println("$" + p / 100 + "." + (p % 100) / 10 + p % 10);
     }
   }
 }

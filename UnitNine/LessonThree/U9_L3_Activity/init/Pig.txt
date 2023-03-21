@@ -1,0 +1,12 @@
+public class Pig extends Animal
+{
+  public Pig()
+  {
+    super();
+  }
+
+  public String speak()
+  {
+    return "oink";
+  }
+}

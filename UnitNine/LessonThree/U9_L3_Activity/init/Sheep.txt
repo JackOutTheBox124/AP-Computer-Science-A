@@ -1,0 +1,13 @@
+public class Sheep
+{
+  public Sheep()
+  {
+    String type = "sheep";
+    super(type);
+  }
+
+  public String toString()
+  {
+    return "baa";
+  }
+}
